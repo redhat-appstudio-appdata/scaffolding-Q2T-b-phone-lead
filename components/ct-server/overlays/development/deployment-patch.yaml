@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/tdalton-tenant/scaffolding/ct-server@sha256:4bb60590d9c71d6b178ca4e461e58736171efdf3e9ccf3b0b31beed2a419d08e
+      - image: quay.io/redhat-user-workloads/tdalton-tenant/scaffolding/ct-server@sha256:06faee105d371b03dbe7dd072192552016ea3a7aafcdd805b148b949dfba82e8
         name: my-go
         resources: {}
 status: {}
