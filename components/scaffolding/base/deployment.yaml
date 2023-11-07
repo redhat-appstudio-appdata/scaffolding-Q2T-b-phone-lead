@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: scaffolding
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/tdalton-tenant/scaffolding/scaffolding@sha256:1ed94bf5fd7de862ee9d660a25c978d35615755c4f684eb53e87242578d2dbf4
+      - image: quay.io/redhat-user-workloads/tdalton-tenant/scaffolding/scaffolding@sha256:ea59e6260f3befa62de32370860fee8e8ace058f5dd3d146d0a880a8146dbaba
         name: my-go
         ports:
         - containerPort: 8081
